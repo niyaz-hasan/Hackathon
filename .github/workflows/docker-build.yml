@@ -2,7 +2,7 @@ name: Build and Push to ECR
 on:
   push:
     paths:
-      - 'docker/**'
+      - 'application/**'
       - '.github/workflows/docker.yml'
   workflow_dispatch:
 
